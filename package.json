@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "- Repository: `lokkeroom` - Type of Challenge: `Consolidation` - Duration: `5 days` - Deployment strategy : `Heroku` - Team challenge : `solo`",
   "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
+    "postinstall": "npm rebuild bcrypt",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
