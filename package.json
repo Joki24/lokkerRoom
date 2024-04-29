@@ -1,0 +1,32 @@
+{
+  "name": "20-backend-203-express-advanced-joki24",
+  "version": "1.0.0",
+  "description": "- Repository: `lokkeroom` - Type of Challenge: `Consolidation` - Duration: `5 days` - Deployment strategy : `Heroku` - Team challenge : `solo`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junior-dev-Track/20-backend-203-express-advanced-Joki24.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junior-dev-Track/20-backend-203-express-advanced-Joki24/issues"
+  },
+  "homepage": "https://github.com/Junior-dev-Track/20-backend-203-express-advanced-Joki24#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
