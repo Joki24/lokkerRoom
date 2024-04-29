@@ -1,7 +1,7 @@
 //userController.js
 
 const pool = require('./dbConfig');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const JWT = require('jsonwebtoken');
 
 // Define the userController object
